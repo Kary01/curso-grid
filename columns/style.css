@@ -19,8 +19,8 @@ body{
 }
 
 .item{/*Here the item elements are grid items*/
-    background-color: cornsilk;
+    background-color: ghostwhite;
     padding: 1em;
-    border: 1px solid cornflowerblue;
+    border: 1px solid gainsboro;
 }
 
