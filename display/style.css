@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: grid;
+    grid-template: 300px 100px 100px / 50% 200px 100px;
+    /*forma abreviada de rows y columns*/
+}
+
+.item:nth-of-type(4){ /*grids identados*/
+    background-color: beige;
+    display: grid;
+    grid-template: 40px 40px / 100px 100px 90px;
+}
+
+.item{/*Here the item elements are grid items*/
+    background-color: ghostwhite;
+    padding: 1em;
+    border: 1px solid gainsboro;
+}
