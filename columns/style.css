@@ -13,3 +13,14 @@ body{
     font-size: 1.2rem;
 }
 
+.container{ /*Defines the element as a grid container*/
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.item{/*Here the item elements are grid items*/
+    background-color: cornsilk;
+    padding: 1em;
+    border: 1px solid cornflowerblue;
+}
+
