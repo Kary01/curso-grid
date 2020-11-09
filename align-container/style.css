@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 100px);
+    gap: .5em;
+    height: 100vh;
+
+    justify-content: center; /*horizontal*/
+    align-content: center; /*vertical*/
+}
+
+.item{/*Here the item elements are grid items*/
+    background-color: ghostwhite;
+    padding: 1em;
+    border: 1px solid gainsboro;
+}
